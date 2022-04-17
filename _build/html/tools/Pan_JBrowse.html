@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pan JBrowse (Pan-genome Browser) &mdash; bnaomics-docs 1.1 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="JBrowse" href="JBrowse.html" />
+    <link rel="prev" title="BLAST" href="BLAST.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> bnaomics-docs
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../about/index.html">About BnaOmics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../homepage/index.html">Homepage Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../major_varieties/index.html">Major Varieties Overview Page</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../data/index.html">Data Pages</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../search/index.html">Data Searches</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Available Tools</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="BLAST.html">BLAST</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Pan JBrowse (Pan-genome Browser)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="JBrowse.html">JBrowse</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Gene_Converter.html">Gene Converter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="seqret.html">Sequence Retrieval</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gene_exp_view.html">Gene Expression View</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pav_view.html">Gene PAV View</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../update_logs/index.html">Update Logs</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">bnaomics-docs</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="index.html">Available Tools</a> &raquo;</li>
+      <li>Pan JBrowse (Pan-genome Browser)</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/tools/Pan_JBrowse.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="pan-jbrowse-pan-genome-browser">
+<h1>Pan JBrowse (Pan-genome Browser)<a class="headerlink" href="#pan-jbrowse-pan-genome-browser" title="Permalink to this headline"></a></h1>
+<p>The Pan JBrowse page contains two parts, a dynamic tree browser on the
+left panel and a genome browser on the right panel. The tree was
+constructed from the SNP data. Users can select multiple nodes
+(including leaf nodes and internal nodes) and click the “Submit” button
+to visualize these rapeseed accessions in the genome browser. The tree
+browser also supports search function to accelerate target genome
+selection. The pan-genome reference sequence, gene annotation and TH001
+sample’s presence frequency are three basic tracks. There are 2885
+rapeseed genome tracks. Users can select any number of accessions data
+through the hidden “Select tracks” panel or the tree browser (only
+available for 381 high-depth accessions) as well. For the performance
+concern, we recommend to select less than 100 tracks each time.</p>
+<p>The tree browser is composed of a tree viewer and 4 toolbars, one of
+which lies at the bottom of the browser. The top toolbar is for locating
+the terminal nodes by accession codes.</p>
+<p>The next two toolbars change the behaviors of internal nodes and leaf
+nodes respectively. When “fold” is chosen, clicking internal nodes hides
+their child nodes. When “select” is chosen, clicking nodes select their
+child nodes (or themselves when clicking leaf nodes). A selected leaf
+node will be shown in genome browser when the “submit” button is
+clicked. When “preserve” is chosen, clicking nodes preserve their child
+nodes (or themselves when clicking leaf nodes). A preserved leaf node
+won’t be hidden when folding its ancestors. Clicking a node for the
+second time behave oppositely in every chosen ‘mode’.</p>
+<p>The last toolbar lies at bottom. It provides functions on selection.
+Clicking the “Next Selected” button scrolls the tree browser down to the
+location of the next selected leaf node. Clicking the “clear” button
+deselects all selected accessions. Clicking the “submit” buttons shows
+selected accessions in genome browser. Clicking the “Help” button shows
+description about the usage of each button. Clicking the “Hide All”
+button hides all internal nodes.</p>
+<p>The genome browser was based on JBrowse. The detailed usage of JBrowse
+could be acquired in the <a class="reference external" href="https://jbrowse.org/jbrowse1.html">JBrowse official
+site</a>.</p>
+<p>There are two buttons on the top of this panel.</p>
+<ul class="simple">
+<li><p>Screenshot: generates a screenshot for JBrowse in PDF format.</p></li>
+<li><p>Share: share the link of current genome browser.</p></li>
+</ul>
+<p>There are four types of tracks, including reference sequence, gene,
+accession coverage and SNP, and the first three types are default
+tracks.</p>
+<ul class="simple">
+<li><p>Reference sequence: the pan-genome sequence. Users could zoom in to
+see sequence at base level.</p></li>
+<li><p>Gene: the pan-genome gene annotation. Users could left-click to view
+detailed information.</p></li>
+<li><p>Accession Coverage: there are 2885 accession tracks.</p></li>
+<li><p>SNP: the 381 high-depth and 2504 low-depth SNPs.</p></li>
+</ul>
+<figure class="align-default">
+<img alt="" src="../_images/pan-jbrowse.png" />
+</figure>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="BLAST.html" class="btn btn-neutral float-left" title="BLAST" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="JBrowse.html" class="btn btn-neutral float-right" title="JBrowse" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, boer.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

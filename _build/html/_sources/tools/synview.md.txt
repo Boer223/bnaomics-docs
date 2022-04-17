@@ -1,0 +1,8 @@
+# Synteny Viewer
+
+This tool allows you to visualize synteny between different genome assemblies. It is built upon [SynVisio](https://github.com/kiranbandi/synvisio) developed by Venkat Bandi.
+
+![synview-1](/_static/synview-1.png)
+
+![synview-2](/_static/synview-2.png)
+

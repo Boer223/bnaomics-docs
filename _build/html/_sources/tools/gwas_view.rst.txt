@@ -1,0 +1,15 @@
+GWAS View
+=========
+
+The GWAS View allows you to view SNP, SV and gene-PAV based GWAS results
+of 24 traits, including plant architecture traits (branch number, main
+inflorescence length, main inflorescence silique number, first branch
+height, plant height), yield traits (thousand-seed weight, moisture),
+flowering traits (bolting, budding, initial flowering, full flowering,
+end flowering), quality traits (fat, glucosinolate content, protein
+content, palmitic acid C16:0, stearic acid C18:0, oleic acid C18:1,
+linolelaidic acid C18:2, γ-Linolenic acid C18:3, eicosenoic acid C20:1,
+erucic acid C22:1).
+
+.. figure:: https://gitee.com/chipcui/tuchuang/raw/master/gwas.png
+   :alt: 
