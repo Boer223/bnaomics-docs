@@ -12,5 +12,8 @@ and selected the desired data.
 
     Genomics
     Variations
-    Genetics
+    Phyenotypes
     Populations
+    Transcriptomics
+    Epigenomics
+
