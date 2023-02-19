@@ -9,3 +9,8 @@ Update Logs
 
 2021-8-30 version 1.1 released, add some tools
 ----------------------------------------------
+
+.. _2023-2-17-version-12-released:
+
+2023-2-17 version 1.5 released, fixed some bugs
+----------------------------------------------

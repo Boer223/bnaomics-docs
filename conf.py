@@ -23,7 +23,7 @@ copyright = '2022, boer'
 author = 'boer'
 
 # The full version, including alpha/beta/rc tags
-release = '1.1'
+release = '1.5'
 
 
 # -- General configuration ---------------------------------------------------
@@ -32,6 +32,8 @@ release = '1.1'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'recommonmark',
+    'sphinx_markdown_tables'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -49,6 +51,10 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # a list of builtin themes.
 #
 html_theme = 'sphinx_rtd_theme'
+
+html_theme_options = {
+    'display_version': True
+}
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,

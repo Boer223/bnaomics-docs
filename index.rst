@@ -1,7 +1,7 @@
-Welcome to BnaOmics user manual!
+BnaOmics User Manual!
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: /_static/homepage.jpeg
+.. figure:: /_static/homepage.png
    :alt: 
 
 Contents
@@ -12,7 +12,7 @@ Contents
 
    about/index
    homepage/index
-   major_varieties/index
+   reference_genomes/index
    data/index
    search/index
    tools/index

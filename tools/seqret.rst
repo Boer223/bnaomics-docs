@@ -11,9 +11,9 @@ new tab of your bowser.
 .. figure:: /_static/seqret-2.png
    :alt: 
 
-If you want to extract chromosome subsequence, you need to input
-chromosome name in the Sequence Name input box and select genome
-database. And then input region in Set Subsequence input boxes.
+If you want to extract chromosome subsequence, you need to select
+chromosome name in the Genome Location select box and select genome
+dataset in Database select box. And then input region in Genome Location input boxes.
 
 .. figure:: /_static/seqret-3.png
    :alt: 

@@ -23,3 +23,5 @@ section below the figure.
     gene_exp_view
     pav_view
     sms2
+    go_kegg_enrich
+    gwas_view

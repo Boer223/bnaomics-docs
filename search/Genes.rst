@@ -19,5 +19,5 @@ returned sequences. To do another search, click reset.
 .. figure:: /_static/search-gene-2.png
    :alt: 
 
-.. figure:: /_static/search-gene-3.jpeg
+.. figure:: /_static/search-gene-3.png
    :alt: 

@@ -12,9 +12,11 @@ interface, please see below.
     :maxdepth: 2
 
     Genes
-    Orthogroup
     Synteny_Blocks
     Germplasm
     SNPs_SVs
+    chromatin_interaction
+    DNA_methylation
+    histone_modification
     Trait
     
