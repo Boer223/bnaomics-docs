@@ -8,7 +8,7 @@ from public databases). BnaOmics includes:
 
 -  different versions of genome assemblies and annotations of 18
    germplasms (total of 26 genomes), including Darmor, Express617,
-   Gangan, J9707_zhou, Kale, Laurentian, Mendel, NY7, No2127, Quinta,
+   Gangan, HTR001, Kale, Laurentian, Mendel, NY7, No2127, Quinta,
    Shengli, Tapidor, Westar, ZS11, ZS4-2, ZS9, ZY821, Zheyou7. For the
    details of source reference of each genome, users can refer to
    `here <https://bnaomics.ocri-genomics.net//tools/jb>`__.
@@ -19,7 +19,7 @@ from public databases). BnaOmics includes:
    re-sequencing germplasms.
 
 -  population gene expression of 219 accessions in shoot apical meristem (SAM) and silique tissues;
-   gene expression in 9 different tissues under pan-genome context covering 3 distinct developmental stages during its life cycle, including callus, cotyledon, root, stem peel, leaf, bud, flower, silique, silique wall and seed.
+   gene expression in 1234 libraries and 9 different tissues under pan-genome context covering 3 distinct developmental stages during its life cycle, including callus, cotyledon, root, stem peel, leaf, bud, flower, silique, silique wall and seed.
 
 -  trait values from 381 accessions.
 
