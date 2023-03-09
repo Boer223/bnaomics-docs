@@ -16,4 +16,6 @@ and selected the desired data.
     Populations
     Transcriptomics
     Epigenomics
+    Batch_download
+    Data_sources
 
