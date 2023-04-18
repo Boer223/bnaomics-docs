@@ -68,4 +68,3 @@ source_parsers = {
     '.MD': CommonMarkParser,
 }
 
-html_output_dir = os.environ.get('READTHEDOCS_OUTPUT', '_build') + '/html'
