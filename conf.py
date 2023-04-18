@@ -15,6 +15,7 @@
 # sys.path.insert(0, os.path.abspath('.'))
 import sphinx_rtd_theme
 from recommonmark.parser import CommonMarkParser
+import os
 
 # -- Project information -----------------------------------------------------
 
@@ -66,3 +67,5 @@ source_parsers = {
     '.md': CommonMarkParser,
     '.MD': CommonMarkParser,
 }
+
+html_output_dir = os.environ.get('READTHEDOCS_OUTPUT', '_build') + '/html'
