@@ -11,3 +11,6 @@ The GWAS View tool allows you to view SNP-GWAS, SV-GWAS and PAV-GWAS results of 
 
 .. figure:: /_static/gwas-3.png
    :alt: 
+
+.. figure:: /_static/gwas-4.png
+   :alt: 
